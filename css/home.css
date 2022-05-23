@@ -1,0 +1,419 @@
+/* CSS HEX */
+/* 
+--midnight-blue: #03045eff;
+--dark-cornflower-blue: #023e8aff;
+--star-command-blue: #0077b6ff;
+--blue-green: #0096c7ff;
+--pacific-blue: #00b4d8ff;
+--sky-blue-crayola: #48cae4ff;
+--middle-blue: #90e0efff;
+--blizzard-blue: #ade8f4ff;
+--light-cyan: #caf0f8ff; 
+*/
+
+/* START General Theme */
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark-2);
+}
+
+h1 {
+    font-family: var(--glacial-indifference-bold);
+    font-size: 100px;
+    color: white;
+    line-height: 95px;
+}
+
+h3 {
+    font-family: var(--glacial-indifference);
+    font-size: 25px;
+    color: #ADE8F4ff;
+    line-height: 25px;
+}
+
+h4 {
+    font-family: var(--glacial-indifference);
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #ADE8F4ff;
+    line-height: 20px;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* END General Theme */
+
+/* START Header Section */
+
+#brand_logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#profile_picture img{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 21px;
+    margin-top: 21px;
+}
+
+#titles {
+    text-align: left;
+    padding-top: 20px;
+}
+
+#profile_picture{
+    text-align: right;
+}
+
+.container-lg{
+    align-items: left;
+    width: 80rem;
+}
+
+i {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#header_row {
+    padding-bottom: 40px;
+}
+
+/* END Header Section */
+
+/* START Skills Section*/
+#skills_row {
+    background-color: var(--dark-1);
+    padding-inline: var(--padding-inline);
+}
+
+#skills_row h1{
+    font-size: 70px;
+    line-height: 75px;
+}
+
+#skills_row i{
+    font-size: 70px;
+}
+
+#skills_row img{
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#line{
+    background-color: white;
+    padding: 0px;
+    margin-inline: 20px;
+    max-width: 5px;
+}
+
+.icon{
+    padding-top: 20px;
+}
+
+.icon i{
+    padding-bottom: 0px;
+    padding-right: 9px;
+}
+
+.icon h3 {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+/* END Skills Section */
+
+/* START Contact Section */
+
+#contacts_row {
+    margin-top: 20px;
+    padding-inline: var(--padding-inline);
+}
+
+#contacts_row h1{
+    font-size: 65px;
+    line-height: 65px;
+}
+
+#email, #number {
+    text-decoration: underline;
+}
+
+#download_resume {
+    margin-top: 80px;
+    text-align: left;
+    margin-right: 25px;
+    right: 0;
+}
+
+.download_btn{
+    width: 200px;
+    margin-right: 30px;
+}
+
+.form_area {
+    text-align: right;
+}
+
+#contacts_row #line {
+    background-color: var(--dark-2);
+}
+
+.submit{
+    margin-top: 20px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    width: 95%;
+    height: 40px;
+}
+
+#message_txtarea{
+    width: 95%;
+    height: 150px;
+}
+
+/* END Contact Section*/
+
+/* START Footer */
+
+#footer_container{
+    text-align: center;
+    padding-block: 90px;
+}
+
+#footer_container h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#footer_container h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#footer_logo{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: var(--dark-1);
+}
+
+/* END Footer */
+
+/* START Buttons */
+
+.btn-primary {
+    --bs-btn-font-size: 17px;
+    --bs-btn-font-family: var(--glacial-indifference-bold);
+    --bs-btn-color: var(--dark-2);
+    --bs-btn-bg: var(--light-1);
+    --bs-btn-border-color: var(--light-1);
+
+    --bs-btn-hover-bg: var(--dark-2);
+    --bs-btn-hover-color: var(--light-1);
+    --bs-btn-hover-border-color: var(--light-1);
+
+    --bs-btn-active--color: var(--light-1);
+}
+
+/* END Buttons */
+
+/* Large to Small devices (tablets, 992px and below) */
+@media (max-width: 992px) { 
+    #profile_picture {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #profile_picture img {
+        margin-top: 20px;
+        width: 500px;
+        height: 500px;
+    }
+
+    #titles {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    h1 {
+        font-size: 95px;
+        line-height: 85px;
+    }
+
+    h3 {
+        font-family: var(--glacial-indifference);
+        font-size: 20px;
+        color: #ADE8F4ff;
+        line-height: 20px;
+    }
+    
+    h4 {
+        font-family: var(--glacial-indifference);
+        font-size: 15px;
+        letter-spacing: 3px;
+        color: #ADE8F4ff;
+        line-height: 20px;
+    }
+    
+    i {
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+
+    .skill_container {
+        padding-left: 25%;
+    }
+
+    #line {
+        height: 4px;
+        max-width: 95%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #download_resume {
+        margin-top: 50px;
+        text-align: right;
+    }
+
+    .download_btn {
+        margin-bottom: 40px;
+    }
+
+    .form_area {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    #contacts_row #line {
+        background-color: white;
+    }
+    
+}
+
+/* Phone sizes and below*/
+@media (max-width: 576px){
+    #profile_picture {
+        text-align: center;
+    }
+
+    #profile_picture img {
+        width: 200px;
+        height: 200px;
+        border-radius: 21px;
+        padding-top: 0px;
+    }
+
+    #titles {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    h3 {
+        font-family: var(--glacial-indifference);
+        font-size: 20px;
+        color: #ADE8F4ff;
+        line-height: 20px;
+    }
+    
+    h4 {
+        font-family: var(--glacial-indifference);
+        font-size: 15px;
+        letter-spacing: 3px;
+        color: #ADE8F4ff;
+        line-height: 20px;
+    }
+    
+    i {
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+
+    #skills_row h1 {
+        font-size: 55px;
+        line-height: 50px;
+        padding-bottom: 20px;
+    }
+
+    #skill_row{
+        background-color: yellow;
+    }
+
+    #line {
+        height: 4px;
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 1px;
+    }
+
+    #skills_row .btn{
+        margin-bottom: 20px;
+    }
+
+    .skill_container {
+        padding-left: 0px;
+    }
+
+    .form_area {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    #contacts_row h1{
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    #contacts_row h3{
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+    #contacts_row #line {
+        background-color: white;
+    }
+    
+    #contacts_row .btn{
+        margin-bottom: 30px;
+    }
+
+    .download_btn{
+        width: 150px;
+        margin-right: 5px;
+    }
+
+    #download_resume{
+        text-align: right;
+        margin-right: 5px;
+    }
+}
