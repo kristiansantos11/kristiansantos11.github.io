@@ -1,0 +1,42 @@
+/* START Header */
+
+.title-row{
+    text-align: center;
+}
+
+.basic-info-row{
+    background-color: var(--light-1);
+    margin-inline: 30px;
+    width: 90%;
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.basic-info-row h1{
+    color: var(--dark-2);
+}
+
+.basic-info-row h3{
+    color: var(--dark-2);
+}
+
+/* END Header */
+
+@media (max-width: 992px){
+
+}
+@media (max-width: 576px){
+
+    .basic-info-row{
+        width: 82%;
+        padding: 15px;
+    }
+
+    .basic-info-row h1{
+        color: var(--dark-2);
+        font-size: 50px;
+    }
+    .basic-info-row h3{
+        color: var(--dark-2);
+    }    
+}

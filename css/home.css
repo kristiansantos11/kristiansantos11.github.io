@@ -1,64 +1,4 @@
-/* CSS HEX */
-/* 
---midnight-blue: #03045eff;
---dark-cornflower-blue: #023e8aff;
---star-command-blue: #0077b6ff;
---blue-green: #0096c7ff;
---pacific-blue: #00b4d8ff;
---sky-blue-crayola: #48cae4ff;
---middle-blue: #90e0efff;
---blizzard-blue: #ade8f4ff;
---light-cyan: #caf0f8ff; 
-*/
-
-/* START General Theme */
-
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: var(--dark-2);
-}
-
-h1 {
-    font-family: var(--glacial-indifference-bold);
-    font-size: 100px;
-    color: white;
-    line-height: 95px;
-}
-
-h3 {
-    font-family: var(--glacial-indifference);
-    font-size: 25px;
-    color: #ADE8F4ff;
-    line-height: 25px;
-}
-
-h4 {
-    font-family: var(--glacial-indifference);
-    font-size: 17px;
-    letter-spacing: 3px;
-    color: #ADE8F4ff;
-    line-height: 20px;
-}
-
-.active{
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-/* END General Theme */
-
 /* START Header Section */
-
-#brand_logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-}
 
 #profile_picture img{
     max-width: 400px;
@@ -74,17 +14,6 @@ h4 {
 
 #profile_picture{
     text-align: right;
-}
-
-.container-lg{
-    align-items: left;
-    width: 80rem;
-}
-
-i {
-    font-size: 30px;
-    padding-bottom: 10px;
-    color: white;
 }
 
 #header_row {
@@ -181,6 +110,9 @@ textarea{
     margin-bottom: 20px;
     width: 95%;
     height: 40px;
+    resize: none;
+    font-size: 20px;
+    padding: 4px;
 }
 
 #message_txtarea{
@@ -189,56 +121,6 @@ textarea{
 }
 
 /* END Contact Section*/
-
-/* START Footer */
-
-#footer_container{
-    text-align: center;
-    padding-block: 90px;
-}
-
-#footer_container h1{
-    font-size: 20px;
-    line-height: 20px;
-}
-
-#footer_container h3{
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#footer_logo{
-    width: 60px;
-    height: 60px;
-    padding: 0px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-footer{
-    background-color: var(--dark-1);
-}
-
-/* END Footer */
-
-/* START Buttons */
-
-.btn-primary {
-    --bs-btn-font-size: 17px;
-    --bs-btn-font-family: var(--glacial-indifference-bold);
-    --bs-btn-color: var(--dark-2);
-    --bs-btn-bg: var(--light-1);
-    --bs-btn-border-color: var(--light-1);
-
-    --bs-btn-hover-bg: var(--dark-2);
-    --bs-btn-hover-color: var(--light-1);
-    --bs-btn-hover-border-color: var(--light-1);
-
-    --bs-btn-active--color: var(--light-1);
-}
-
-/* END Buttons */
 
 /* Large to Small devices (tablets, 992px and below) */
 @media (max-width: 992px) { 
@@ -415,5 +297,10 @@ footer{
     #download_resume{
         text-align: right;
         margin-right: 5px;
+    }
+
+    textarea{
+        font-size: 15px;
+        padding: 6px;
     }
 }

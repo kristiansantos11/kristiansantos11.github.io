@@ -1,0 +1,102 @@
+/* START General Theme */
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark-2);
+}
+
+h1 {
+    font-family: var(--glacial-indifference-bold);
+    font-size: 100px;
+    color: white;
+    line-height: 95px;
+}
+
+h3 {
+    font-family: var(--glacial-indifference);
+    font-size: 25px;
+    color: #ADE8F4ff;
+    line-height: 25px;
+}
+
+h4 {
+    font-family: var(--glacial-indifference);
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #ADE8F4ff;
+    line-height: 20px;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container-lg{
+    align-items: left;
+    width: 80rem;
+}
+
+i {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+/* END General Theme */
+
+/* START Buttons */
+
+.btn-primary {
+    --bs-btn-font-size: 17px;
+    --bs-btn-font-family: var(--glacial-indifference-bold);
+    --bs-btn-color: var(--dark-2);
+    --bs-btn-bg: var(--light-1);
+    --bs-btn-border-color: var(--light-1);
+
+    --bs-btn-hover-bg: var(--dark-2);
+    --bs-btn-hover-color: var(--light-1);
+    --bs-btn-hover-border-color: var(--light-1);
+
+    --bs-btn-active--color: var(--light-1);
+}
+
+/* END Buttons */
+
+/* START Footer */
+
+#footer_container{
+    text-align: center;
+    padding-block: 90px;
+}
+
+#footer_container h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#footer_container h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#footer_logo{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: var(--dark-1);
+}
+
+/* END Footer */
