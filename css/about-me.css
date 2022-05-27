@@ -22,11 +22,41 @@
 
 /* END Header */
 
-@media (max-width: 992px){
+/* START Education Section */
 
+#education_row{
+    background-color: var(--dark-1);
+    margin-block: 20px;
+    padding-block: 20px;
+}
+
+#line {
+    max-width: 4px;
+    min-height: 200px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#education_row h1{
+    font-size: 75px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#education_row .align-items-center{
+    max-height: 400px;
+}
+
+/* END Education Section */
+
+@media (max-width: 992px){
+    #education_row h1{
+        text-align: left;
+        
+    }
 }
 @media (max-width: 576px){
-
     .basic-info-row{
         width: 82%;
         padding: 15px;
@@ -38,5 +68,13 @@
     }
     .basic-info-row h3{
         color: var(--dark-2);
-    }    
+    }
+    
+    #line{
+        min-height: 0px;
+    }
+
+    #education_row h1{
+        text-align: left;
+    }
 }
