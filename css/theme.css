@@ -48,6 +48,24 @@ i {
     color: white;
 }
 
+li{
+    color: white;
+    font-size: 25px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: var(--glacial-indifference);
+}
+
+strong {
+    color: white;
+    font-family: var(--glacial-indifference-bold);
+    font-size: 35px;
+}
+
 
 /* END General Theme */
 
