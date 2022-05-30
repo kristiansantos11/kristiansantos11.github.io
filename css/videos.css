@@ -1,0 +1,59 @@
+#title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#subtitle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#videos_row{
+    margin-block: 20px;
+    padding-block: 20px;
+    text-align: center;
+    background-color: var(--dark-1);
+}
+
+.row{
+    margin-block: 30px
+}
+
+#videos_row iframe{
+    height: 315px;
+    width: 560px;
+}
+
+#co_title{
+    font-family: var(--glacial-indifference-bold);
+    margin-bottom: 14px;
+}
+
+/* MUSIC ROW START */
+
+#music_row {
+    text-align: center;
+}
+
+#music_row iframe{
+    max-width: 40rem;
+}
+
+/* MUSIC ROW END */
+
+@media (max-width: 576px){
+    #videos_row iframe{
+        width: 300px;
+        height: 168.75px;
+    }
+}
+
+@media (max-width: 300px){
+    #title{
+        font-size: 70px;
+    }
+    #videos_row iframe{
+        width: 200px;
+        height: 112.5px;
+    }
+}

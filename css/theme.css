@@ -82,7 +82,9 @@ strong {
     --bs-btn-hover-color: var(--light-1);
     --bs-btn-hover-border-color: var(--light-1);
 
-    --bs-btn-active--color: var(--light-1);
+    --bs-btn-active--color: var(--dark-2);
+    --bs-btn-active-bg: var(--pacific-blue);
+    --bs-btn-active-border-color: white;
 }
 
 /* END Buttons */

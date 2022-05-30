@@ -3,6 +3,10 @@
     margin-top: 20px;
 }
 
+#subtitle{
+    text-align: center;
+}
+
 /* START Works Row */
 
 #works_row{
@@ -40,3 +44,55 @@
 }
 
 /* END Works Row */
+
+/* START Duck Area */
+
+.random-birb img{
+    text-align: center;
+    max-width: 500px;
+}
+
+#random_birb_row{
+    text-align: center;
+    margin-block: 40px;
+}
+
+#random_birb_row img{
+    margin-left: 0px;
+}
+
+#birb-button {
+    max-width: 150px;
+}
+
+/* END Duck Area */
+
+@media (max-width: 576px){
+
+    .random-birb img{
+        text-align: center;
+        max-width: 350px;
+    }
+
+    #title {
+        font-size: 75px;
+    }
+
+    #works_row img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    #works_row a{
+        width: 150px;
+        height: 150px;
+        padding: 0px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .random-birb img{
+        max-width: 200px;
+    }
+}
