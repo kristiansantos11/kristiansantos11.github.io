@@ -83,8 +83,8 @@
 }
 
 #download_resume {
-    margin-top: 80px;
-    text-align: left;
+    margin-top: 0px;
+    text-align: right;
     margin-right: 25px;
     right: 0;
 }
@@ -297,10 +297,55 @@ textarea{
     #download_resume{
         text-align: right;
         margin-right: 5px;
+        margin-top: 40px;
     }
 
     textarea{
         font-size: 15px;
         padding: 6px;
+    }
+}
+
+@media (max-width: 400px){
+    #titles h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #titles h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #skills_row h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    #skills_row h3{
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    #skills_row i{
+        font-size: 50px;
+    }
+
+    #skills_row img{
+        width: 50px;
+        height: 55px;
+    }
+
+    #contacts_row h1{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    #contacts_row h3{
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    #contacts_row .btn{
+        max-width: 130px;
     }
 }
