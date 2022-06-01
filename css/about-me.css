@@ -56,6 +56,10 @@
     margin-block: 40px;
 }
 
+#number{
+    font-size: 14px;
+}
+
 /* END Awards Section */
 
 @media (max-width: 992px){
@@ -68,6 +72,10 @@
 }
 
 @media (max-width: 576px){
+    #title{
+        font-size: 40px;
+    }
+
     .basic-info-row{
         width: 82%;
         padding: 15px;
@@ -75,7 +83,8 @@
 
     .basic-info-row h1{
         color: var(--dark-2);
-        font-size: 50px;
+        font-size: 38px;
+        line-height: 50px;
     }
     .basic-info-row h3{
         color: var(--dark-2);
@@ -87,6 +96,8 @@
 
     #education_row h1{
         text-align: left;
+        font-size: 40px;
+        line-height: 40px;
     }
     #education_content {
         margin-bottom: 40px;
